@@ -1,6 +1,6 @@
 # Dining-Philosophers-Problem
 
-A program that allows 5 philosophers to think and eat. Each philosopher eats using 2 out of the 5 forks available. The program uses semaphores for mutual exclusion amongst the philosophers, so that no two philosophers are using the same fork at the same time, and displays which philosopher is eating and when. The program also avoids deadlock and starvation and terminate 5 minutes after the first philosopher starts thinking.
+A program that allows 5 philosophers to think and eat. Each philosopher eats using 2 out of the 5 available forks. The program uses semaphores for mutual exclusion amongst the philosophers, so that no two philosophers are using the same fork at the same time, and displays which philosopher is eating and when. The program also avoids deadlock and starvation and terminate 5 minutes after the first philosopher starts thinking.
 
 ### Dining Philosophers Problem Description:
 
@@ -24,10 +24,10 @@ The program is built and run in a Linux machine. It is built using GCC.
 
 1. In the working directory, where the program source code is saved, enter the following command to build the code:
 
-  gcc -lpthread program3.c -o program3
+    gcc -lpthread program3.c -o program3
 
-where program3.c is the program source code and program3 is the executable.
+  where program3.c is the program source code and program3 is the executable.
 
 2. Enter the following command to run the program:
   
-  ./program3  
+    ./program3  
