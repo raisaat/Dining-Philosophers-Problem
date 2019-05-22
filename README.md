@@ -24,10 +24,10 @@ The program is built and run in a Linux machine. It is built using GCC.
 
 1. In the working directory, where the program source code is saved, enter the following command to build the code:
 
-    gcc -lpthread program3.c -o program3
+        gcc -lpthread program3.c -o program3
 
-  where program3.c is the program source code and program3 is the executable.
+    where program3.c is the program source code and program3 is the executable.
 
 2. Enter the following command to run the program:
   
-    ./program3  
+        ./program3  
