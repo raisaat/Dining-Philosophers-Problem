@@ -18,7 +18,7 @@ A “philosopher” function is created for the threads, which allows a philosop
 
 The program starts by making the main() function initialize the semaphores for the 5 forks and create a thread for each of the 5 philosophers. After the threads are spawned, main() goes to sleep for 5 minutes to allow the threads to run for 5 minutes. After 5 minutes, main() kills the threads. It then joins the threads and then destroys the semaphores before finally exiting.
 
-### Running the program:
+### Building and running the program:
 
 The program is built and run in a Linux machine. It is built using GCC.
 
